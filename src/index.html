@@ -5,8 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Schoology</title>
+    <link rel="stylesheet" href="./styles/styles.css" />
   </head>
   <body>
+    <ul class="pagination"></ul>
+
+    <form name="courseForm" class="testClass">
+      <label>
+        Course name:
+        <input type="text" name="courseName" />
+      </label>
+      <label>
+        Agree with terms
+        <input type="checkbox" name="term" />
+      </label>
+
+      <button type="submit" name="addButton">Add Course</button>
+    </form>
     <script src="./index.js" type="module" />
   </body>
 </html>
