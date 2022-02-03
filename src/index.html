@@ -8,20 +8,26 @@
     <link rel="stylesheet" href="./styles/styles.css" />
   </head>
   <body>
-    <ul class="pagination"></ul>
-
-    <form name="courseForm" class="testClass">
+    <form name="courseForm">
       <label>
         Course name:
         <input type="text" name="courseName" />
       </label>
       <label>
-        Agree with terms
-        <input type="checkbox" name="term" />
+        level:
+        <select name="level">
+          <option value="easy">Easy</option>
+          <option value="medium">Medium</option>
+          <option value="hard">Hard</option>
+        </select>
       </label>
-
-      <button type="submit" name="addButton">Add Course</button>
+      <button type="submit" name="addButton" data-btn="addcoursebtn">
+        Add Course
+      </button>
     </form>
+
+    <ul class="coursesList"></ul>
+
     <script src="./index.js" type="module" />
   </body>
 </html>

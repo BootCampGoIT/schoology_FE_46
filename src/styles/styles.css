@@ -1,3 +1,19 @@
 .test {
   color: red;
 }
+
+.valid {
+  border: 1px solid green;
+}
+
+.inValid {
+  border: 1px solid red;
+}
+
+.coursesList {
+  background-color: aqua;
+  padding: 20px;
+}
+.coursesListItem {
+  border: 1px solid black;
+}
